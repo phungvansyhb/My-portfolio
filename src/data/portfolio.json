@@ -1,0 +1,462 @@
+{
+  "profile": {
+    "name": "Phùng Văn Sỹ",
+    "monogram": "PVS.",
+    "handle": "@phungvansyhb",
+    "email": "contact@phungvansy.dev",
+    "location": "Hanoi, Vietnam (UTC+7)",
+    "githubUrl": "https://github.com/phungvansyhb",
+    "linkedinUrl": "https://linkedin.com/in/phungvansyhb",
+    "resumeUrl": "#contact",
+    "en": {
+      "role": "Full-Stack Software Engineer",
+      "availability": "Available for Staff / Senior Full-Stack & Architecture roles",
+      "headline": "Engineering resilient web systems with edge-first craft.",
+      "subheadline": "I architect full-stack TypeScript platforms, low-latency distributed APIs, and kinetic product interfaces on Next.js and Vercel.",
+      "aboutQuote": "Great software feels effortless on the surface because every state transition, cache boundary, and failure mode underneath is deliberate.",
+      "focusLabel": "Next.js • Distributed APIs • Edge Infra"
+    },
+    "vi": {
+      "role": "Kỹ sư Phần mềm Full-Stack",
+      "availability": "Sẵn sàng cho các cơ hội Senior Full-Stack & Kiến trúc hệ thống",
+      "headline": "Xây dựng hệ thống web bền bỉ với kiến trúc hướng Edge.",
+      "subheadline": "Tôi thiết kế nền tảng TypeScript toàn diện, API phân tán độ trễ thấp và giao diện tương tác mượt mà trên hệ sinh thái Next.js & Vercel.",
+      "aboutQuote": "Phần mềm xuất sắc tạo cảm giác nhẹ nhàng ở bề mặt bởi vì mọi chuyển trạng thái, tầng bộ nhớ đệm và kịch bản lỗi bên dưới đều được tính toán kỹ lưỡng.",
+      "focusLabel": "Next.js • Hệ thống phân tán • Edge Infra"
+    }
+  },
+  "stats": [
+    {
+      "value": "99.98%",
+      "en": { "label": "Production Uptime" },
+      "vi": { "label": "Độ ổn định hệ thống" }
+    },
+    {
+      "value": "< 42ms",
+      "en": { "label": "Global Edge TTFB" },
+      "vi": { "label": "Độ trễ Edge toàn cầu" }
+    },
+    {
+      "value": "4+",
+      "en": { "label": "Years Shipping Full-Stack" },
+      "vi": { "label": "Năm phát triển Full-Stack" }
+    }
+  ],
+  "ui": {
+    "en": {
+      "nav": {
+        "work": "Case Studies",
+        "stack": "Capabilities",
+        "experience": "Experience",
+        "contact": "Contact"
+      },
+      "hero": {
+        "ctaPrimary": "Explore Case Studies",
+        "ctaSecondary": "Command Menu",
+        "workbenchTitle": "System Workbench",
+        "tabs": {
+          "preview": "Preview",
+          "architecture": "Architecture",
+          "telemetry": "Edge Telemetry"
+        },
+        "copyEmail": "Copy Email",
+        "copied": "Copied!",
+        "timezoneLabel": "Base & Timezone",
+        "focusTitle": "Core Engineering Focus"
+      },
+      "projects": {
+        "eyebrow": "Selected Engineering Work",
+        "title": "Architecture & Case Studies",
+        "subtitle": "Click any project card to experience a seamless View Transition into the full architectural breakdown.",
+        "readCase": "Inspect Case Study",
+        "backToWork": "Back to Portfolio",
+        "challenge": "01 / The Engineering Challenge",
+        "architecture": "02 / System Topology",
+        "solution": "03 / Architectural Solution",
+        "tradeoffs": "04 / Key Trade-offs & Decisions",
+        "outcomes": "Measured Impact",
+        "nextProject": "Next Case Study",
+        "liveDemo": "Live Deployment",
+        "sourceCode": "Source Repository"
+      },
+      "stack": {
+        "eyebrow": "Technical Matrix",
+        "title": "Stack & Craft",
+        "hint": "Select or hover a capability to highlight matching case studies."
+      },
+      "experience": {
+        "eyebrow": "Career Trajectory",
+        "title": "Engineering Timeline"
+      },
+      "contact": {
+        "eyebrow": "Let's Build Together",
+        "title": "Have an ambitious product or architecture challenge?",
+        "subtitle": "I partner with product teams to take full-stack platforms from zero-to-one or optimize high-traffic Next.js systems.",
+        "openDrawer": "Start a Conversation",
+        "drawerTitle": "Direct Inquiry",
+        "nameLabel": "Your Name",
+        "namePlaceholder": "Alex Rivera",
+        "subjectLabel": "Project / Role Topic",
+        "subjectPlaceholder": "Full-Stack Architecture / Product Build",
+        "messageLabel": "Brief Context",
+        "messagePlaceholder": "Tell me about your timeline, stack, or engineering goals...",
+        "sendMail": "Open in Email Client",
+        "close": "Close"
+      },
+      "command": {
+        "placeholder": "Jump to a project, switch theme, or copy email...",
+        "empty": "No matching actions found.",
+        "groups": {
+          "navigation": "Case Studies & Sections",
+          "appearance": "Dynamic Theme & Language",
+          "actions": "Quick Actions"
+        }
+      },
+      "footer": {
+        "note": "Engineered with Next.js App Router, View Transitions & Vercel Ecosystem.",
+        "editHint": "Content driven by src/data/portfolio.json • Themes driven by src/styles/tokens.css"
+      }
+    },
+    "vi": {
+      "nav": {
+        "work": "Dự án",
+        "stack": "Công nghệ",
+        "experience": "Kinh nghiệm",
+        "contact": "Liên hệ"
+      },
+      "hero": {
+        "ctaPrimary": "Xem các Case Study",
+        "ctaSecondary": "Bảng lệnh",
+        "workbenchTitle": "Bàn làm việc Hệ thống",
+        "tabs": {
+          "preview": "Tổng quan",
+          "architecture": "Kiến trúc",
+          "telemetry": "Đo lường Edge"
+        },
+        "copyEmail": "Sao chép Email",
+        "copied": "Đã sao chép!",
+        "timezoneLabel": "Vị trí & Múi giờ",
+        "focusTitle": "Trọng tâm Kỹ thuật"
+      },
+      "projects": {
+        "eyebrow": "Dự án Tiêu biểu",
+        "title": "Kiến trúc & Case Study",
+        "subtitle": "Nhấp vào bất kỳ thẻ dự án nào để trải nghiệm View Transition chuyển mượt sang trang phân tích chi tiết.",
+        "readCase": "Xem phân tích chi tiết",
+        "backToWork": "Quay lại Trang chủ",
+        "challenge": "01 / Bài toán Kỹ thuật",
+        "architecture": "02 / Sơ đồ Hệ thống",
+        "solution": "03 / Giải pháp Kiến trúc",
+        "tradeoffs": "04 / Đánh đổi & Quyết định Cốt lõi",
+        "outcomes": "Hiệu quả Đo lường",
+        "nextProject": "Case Study Tiếp theo",
+        "liveDemo": "Bản chạy thực tế",
+        "sourceCode": "Mã nguồn GitHub"
+      },
+      "stack": {
+        "eyebrow": "Năng lực Kỹ thuật",
+        "title": "Công nghệ & Chuyên sâu",
+        "hint": "Chọn hoặc di chuột vào công nghệ để làm nổi bật các dự án liên quan."
+      },
+      "experience": {
+        "eyebrow": "Hành trình Nghề nghiệp",
+        "title": "Kinh nghiệm Làm việc"
+      },
+      "contact": {
+        "eyebrow": "Hợp tác Phát triển",
+        "title": "Bạn đang có bài toán sản phẩm hoặc kiến trúc đầy thách thức?",
+        "subtitle": "Tôi đồng hành cùng các đội ngũ kỹ thuật để xây dựng nền tảng full-stack từ đầu hoặc tối ưu hệ thống Next.js lưu lượng cao.",
+        "openDrawer": "Gửi lời nhắn ngay",
+        "drawerTitle": "Liên hệ Trực tiếp",
+        "nameLabel": "Tên của bạn",
+        "namePlaceholder": "Nguyễn Minh Anh",
+        "subjectLabel": "Chủ đề trao đổi",
+        "subjectPlaceholder": "Hợp tác Full-Stack / Tư vấn kiến trúc",
+        "messageLabel": "Nội dung ngắn gọn",
+        "messagePlaceholder": "Chia sẻ thêm về sản phẩm, thời gian dự kiến hoặc mục tiêu kỹ thuật...",
+        "sendMail": "Mở ứng dụng Email",
+        "close": "Đóng"
+      },
+      "command": {
+        "placeholder": "Đi tới dự án, đổi giao diện, ngôn ngữ hoặc sao chép email...",
+        "empty": "Không tìm thấy thao tác phù hợp.",
+        "groups": {
+          "navigation": "Dự án & Chuyên mục",
+          "appearance": "Giao diện Động & Ngôn ngữ",
+          "actions": "Thao tác nhanh"
+        }
+      },
+      "footer": {
+        "note": "Xây dựng trên Next.js App Router, View Transitions & Hệ sinh thái Vercel.",
+        "editHint": "Dữ liệu quản lý tại src/data/portfolio.json • Chủ đề cấu hình tại src/styles/tokens.css"
+      }
+    }
+  },
+  "projects": [
+    {
+      "slug": "aegis-edge-gateway",
+      "index": "01",
+      "featuredSpan": "wide",
+      "year": "2026",
+      "image": "/images/project-edge-gateway.jpg",
+      "liveUrl": "https://github.com/phungvansyhb",
+      "repoUrl": "https://github.com/phungvansyhb",
+      "stack": ["Next.js", "TypeScript", "Edge Middleware", "Redis", "PostgreSQL", "OpenTelemetry"],
+      "architecture": [
+        { "id": "client", "label": "Global Client", "meta": "TLS 1.3 + HTTP/3" },
+        { "id": "edge", "label": "Edge Gatekeeper", "meta": "Token Bucket < 4ms" },
+        { "id": "cache", "label": "Regional Read Cache", "meta": "SWR + Tag Purge" },
+        { "id": "core", "label": "Core Worker Cluster", "meta": "gRPC + Postgres" }
+      ],
+      "en": {
+        "title": "Aegis Distributed Edge Gateway",
+        "tagline": "Multi-region API rate-limiting, canary routing, and zero-cold-start tenant isolation at 180k req/min.",
+        "role": "Lead Full-Stack Architect",
+        "metrics": [
+          { "label": "P99 Gate Overhead", "value": "3.8ms" },
+          { "label": "Origin Load Reduction", "value": "-64%" },
+          { "label": "Cache Hit Ratio", "value": "94.2%" }
+        ],
+        "challenge": "High-growth SaaS tenants experienced noisy-neighbor spikes and 240ms regional routing penalties when all API authentication and quota checks terminated at a single centralized origin cluster.",
+        "solution": "Designed a two-tier Edge Gatekeeper using lightweight signed capability tokens verified at Edge POPs alongside sliding-window Redis shards, paired with a real-time Next.js App Router control plane for instant route rule propagation.",
+        "tradeoffs": [
+          "Accepted 250ms eventual consistency on soft quota counters between regions in exchange for sub-4ms local verification.",
+          "Split control-plane writes (strongly consistent Postgres) from data-plane reads (replicated edge KV snapshots)."
+        ]
+      },
+      "vi": {
+        "title": "Aegis — Cổng Điều phối Edge Phân tán",
+        "tagline": "Hệ thống giới hạn lưu lượng đa vùng, định tuyến canary và cô lập tenant không độ trễ khởi động ở mức 180k req/phút.",
+        "role": "Kiến trúc sư Full-Stack Chính",
+        "metrics": [
+          { "label": "Độ trễ P99 tại Edge", "value": "3.8ms" },
+          { "label": "Giảm tải Origin", "value": "-64%" },
+          { "label": "Tỷ lệ trúng Cache", "value": "94.2%" }
+        ],
+        "challenge": "Các doanh nghiệp SaaS tăng trưởng nhanh gặp hiện tượng nghẽn cổ chai do lưu lượng đột biến từ một tenant và độ trễ 240ms khi mọi yêu cầu xác thực đều phải đi về một cụm máy chủ trung tâm duy nhất.",
+        "solution": "Thiết kế cổng kiểm soát hai tầng chạy ngay tại các Edge POP kết hợp token chữ ký mật mã với Redis phân mảnh theo vùng, đi kèm bảng điều khiển Next.js App Router đồng bộ luật định tuyến theo thời gian thực.",
+        "tradeoffs": [
+          "Chấp nhận độ trễ đồng bộ mềm 250ms giữa các vùng đối với bộ đếm quota để đổi lấy tốc độ xác thực tại chỗ dưới 4ms.",
+          "Tách biệt luồng ghi cấu hình (PostgreSQL nhất quán mạnh) khỏi luồng đọc thực thi (Edge KV snapshot)."
+        ]
+      }
+    },
+    {
+      "slug": "kinetix-realtime-canvas",
+      "index": "02",
+      "featuredSpan": "standard",
+      "year": "2025",
+      "image": "/images/project-realtime-collab.jpg",
+      "liveUrl": "https://github.com/phungvansyhb",
+      "repoUrl": "https://github.com/phungvansyhb",
+      "stack": ["React 19", "WebSockets", "CRDT (Yjs)", "IndexedDB", "Node.js"],
+      "architecture": [
+        { "id": "local", "label": "Local-First Store", "meta": "IndexedDB + Yjs" },
+        { "id": "ws", "label": "Presence Relay", "meta": "Binary Delta Sync" },
+        { "id": "snapshot", "label": "Compaction Worker", "meta": "Snapshot Persistence" },
+        { "id": "blob", "label": "Object Storage", "meta": "Versioned Assets" }
+      ],
+      "en": {
+        "title": "Kinetix Local-First Multiplayer Canvas",
+        "tagline": "Conflict-free collaborative diagramming studio supporting 120+ concurrent cursors at 60fps.",
+        "role": "Senior Product Engineer",
+        "metrics": [
+          { "label": "Sync Frame Budget", "value": "60fps" },
+          { "label": "Offline Recovery", "value": "100%" },
+          { "label": "Payload Compression", "value": "78%" }
+        ],
+        "challenge": "Traditional lock-based server reconciliation caused visible cursor jitter and dropped edits whenever team members worked across unstable mobile networks.",
+        "solution": "Built a binary-encoded Yjs CRDT synchronization layer backed by IndexedDB for instant optimistic writes, throttling ephemeral cursor presence separately from durable document state mutations.",
+        "tradeoffs": [
+          "Implemented periodic server-side state compaction every 500 vector operations to keep initial room hydration under 120ms.",
+          "Isolated high-frequency canvas pointer coordinates onto an unpersisted broadcast channel to keep document logs lean."
+        ]
+      },
+      "vi": {
+        "title": "Kinetix — Không gian Vẽ Cộng tác Thời gian thực",
+        "tagline": "Công cụ thiết kế sơ đồ đa người dùng không xung đột với hơn 120 con trỏ đồng thời ở 60fps.",
+        "role": "Kỹ sư Sản phẩm Cấp cao",
+        "metrics": [
+          { "label": "Tốc độ khung hình", "value": "60fps" },
+          { "label": "Khôi phục Offline", "value": "100%" },
+          { "label": "Nén gói đồng bộ", "value": "78%" }
+        ],
+        "challenge": "Cơ chế đồng bộ khóa tuần tự truyền thống gây giật con trỏ và mất thao tác khi người dùng cộng tác trên mạng di động không ổn định.",
+        "solution": "Xây dựng tầng đồng bộ CRDT (Yjs) mã hóa nhị phân kết hợp IndexedDB cho phép ghi tức thì ở client, đồng thời tách luồng vị trí con trỏ khỏi luồng lưu trữ trạng thái bền vững.",
+        "tradeoffs": [
+          "Chạy worker nén lịch sử CRDT định kỳ mỗi 500 thao tác để giữ thời gian mở phòng mới dưới 120ms.",
+          "Tách riêng kênh phát tọa độ con trỏ tạm thời để không làm phình dung lượng lịch sử phiên bản."
+        ]
+      }
+    },
+    {
+      "slug": "prism-ai-telemetry",
+      "index": "03",
+      "featuredSpan": "standard",
+      "year": "2025",
+      "image": "/images/project-ai-observability.jpg",
+      "liveUrl": "https://github.com/phungvansyhb",
+      "repoUrl": "https://github.com/phungvansyhb",
+      "stack": ["Next.js", "Streaming RSC", "ClickHouse", "Python", "Vercel AI SDK"],
+      "architecture": [
+        { "id": "sdk", "label": "Agent Trace SDK", "meta": "Zero-Blocking Span" },
+        { "id": "ingest", "label": "Batch Ingest Queue", "meta": "Backpressure Safe" },
+        { "id": "olap", "label": "Columnar Store", "meta": "Sub-second Rollup" },
+        { "id": "ui", "label": "RSC Flamegraph", "meta": "Streamed Analysis" }
+      ],
+      "en": {
+        "title": "Prism LLM Trace & Cost Observatory",
+        "tagline": "Streaming token-level latency waterfall, prompt regression diffs, and real-time cost attribution.",
+        "role": "Full-Stack Engineer",
+        "metrics": [
+          { "label": "Query P95 (10M spans)", "value": "190ms" },
+          { "label": "Prompt Cost Saved", "value": "31%" },
+          { "label": "SDK Overhead", "value": "< 1ms" }
+        ],
+        "challenge": "Teams deploying multi-step AI workflows lacked visibility into which tool call or prompt revision triggered sudden token inflation and P95 latency spikes.",
+        "solution": "Created an asynchronous OpenTelemetry span collector feeding columnar rollups, surfaced inside a Next.js streaming Server Component dashboard with side-by-side prompt evaluation diffs.",
+        "tradeoffs": [
+          "Buffered trace payloads in memory and flushed in 2-second micro-batches so telemetry never blocks user-facing LLM token streaming.",
+          "Pre-aggregated hourly cost cubes to serve instant dashboard views without full-table scans."
+        ]
+      },
+      "vi": {
+        "title": "Prism — Hệ thống Giám sát Trace & Chi phí AI",
+        "tagline": "Theo dõi độ trễ từng token theo thời gian thực, so sánh hồi quy prompt và phân bổ chi phí mô hình.",
+        "role": "Kỹ sư Full-Stack",
+        "metrics": [
+          { "label": "Truy vấn P95 (10M spans)", "value": "190ms" },
+          { "label": "Tiết kiệm chi phí LLM", "value": "31%" },
+          { "label": "Chi phí SDK", "value": "< 1ms" }
+        ],
+        "challenge": "Các nhóm phát triển agent AI đa bước gặp khó khăn khi xác định bước gọi công cụ hoặc phiên bản prompt nào làm tăng chi phí token và độ trễ đột biến.",
+        "solution": "Phát triển bộ thu thập OpenTelemetry bất đồng bộ đẩy dữ liệu vào kho cột hiệu năng cao, hiển thị qua giao diện Next.js Streaming RSC với công cụ so sánh chất lượng prompt trực quan.",
+        "tradeoffs": [
+          "Gom dữ liệu trace theo lô nhỏ 2 giây ở bộ nhớ đệm để việc đo lường không bao giờ làm chậm luồng stream phản hồi của người dùng.",
+          "Tổng hợp trước bảng chi phí theo giờ để biểu đồ tải tức thì thay vì quét toàn bộ dữ liệu thô."
+        ]
+      }
+    },
+    {
+      "slug": "monolith-edge-commerce",
+      "index": "04",
+      "featuredSpan": "wide",
+      "year": "2024",
+      "image": "/images/project-commerce-engine.jpg",
+      "liveUrl": "https://github.com/phungvansyhb",
+      "repoUrl": "https://github.com/phungvansyhb",
+      "stack": ["Next.js", "PostgreSQL", "Stripe Webhooks", "ISR", "TypeScript"],
+      "architecture": [
+        { "id": "storefront", "label": "ISR Storefront", "meta": "On-Demand Purge" },
+        { "id": "cart", "label": "Idempotent Checkout", "meta": "Atomic Inventory" },
+        { "id": "events", "label": "Webhook Outbox", "meta": "Exactly-Once Queue" },
+        { "id": "ledger", "label": "Order Ledger", "meta": "ACID PostgreSQL" }
+      ],
+      "en": {
+        "title": "Veloce Headless Edge Commerce Engine",
+        "tagline": "Flash-sale ready storefront with atomic inventory reservation and sub-second ISR catalog updates.",
+        "role": "Full-Stack Developer",
+        "metrics": [
+          { "label": "Lighthouse Performance", "value": "99/100" },
+          { "label": "Checkout Conversion", "value": "+22%" },
+          { "label": "Oversell Incidents", "value": "0" }
+        ],
+        "challenge": "During limited-edition drops, concurrent checkouts caused overselling race conditions and stale product pages locked behind long CDN TTLs.",
+        "solution": "Combined Next.js On-Demand Revalidation triggered by inventory webhook outbox events with PostgreSQL row-level lease locks for 10-minute checkout reservations.",
+        "tradeoffs": [
+          "Used short-lived reservation leases with automatic expiry sweeps rather than pessimistic long transactions to maintain high throughput.",
+          "Served static product shells from Edge CDN while streaming live stock availability badges via lightweight client hydration."
+        ]
+      },
+      "vi": {
+        "title": "Veloce — Nền tảng Thương mại Headless trên Edge",
+        "tagline": "Cửa hàng tốc độ cao chịu tải flash-sale với cơ chế giữ tồn kho nguyên tử và làm mới ISR dưới 1 giây.",
+        "role": "Lập trình viên Full-Stack",
+        "metrics": [
+          { "label": "Điểm Lighthouse", "value": "99/100" },
+          { "label": "Tăng tỷ lệ chuyển đổi", "value": "+22%" },
+          { "label": "Sự cố bán vượt tồn", "value": "0" }
+        ],
+        "challenge": "Trong các đợt mở bán giới hạn, lượng truy cập đồng thời cao gây ra xung đột giữ hàng và trang sản phẩm hiển thị tồn kho cũ do cache CDN.",
+        "solution": "Kết hợp cơ chế Next.js On-Demand Revalidation kích hoạt từ sự kiện outbox với khóa giữ hàng có thời hạn 10 phút trên PostgreSQL để đảm bảo tính nhất quán tuyệt đối.",
+        "tradeoffs": [
+          "Dùng cơ chế giữ chỗ theo phiên ngắn hạn có tự động thu hồi thay vì khóa transaction kéo dài để không làm nghẽn luồng thanh toán.",
+          "Phục vụ khung trang tĩnh từ Edge CDN và chỉ cập nhật trạng thái còn hàng qua một API siêu nhẹ."
+        ]
+      }
+    }
+  ],
+  "skills": [
+    {
+      "id": "frontend",
+      "en": { "title": "Interface & Motion" },
+      "vi": { "title": "Giao diện & Chuyển động" },
+      "items": [
+        { "name": "Next.js App Router", "projects": ["aegis-edge-gateway", "prism-ai-telemetry", "monolith-edge-commerce"] },
+        { "name": "React 19 & RSC", "projects": ["kinetix-realtime-canvas", "prism-ai-telemetry"] },
+        { "name": "TypeScript (Strict)", "projects": ["aegis-edge-gateway", "kinetix-realtime-canvas", "prism-ai-telemetry", "monolith-edge-commerce"] },
+        { "name": "Framer Motion & View Transitions", "projects": ["kinetix-realtime-canvas", "monolith-edge-commerce"] }
+      ]
+    },
+    {
+      "id": "backend",
+      "en": { "title": "Distributed Systems & Data" },
+      "vi": { "title": "Hệ thống Phân tán & Dữ liệu" },
+      "items": [
+        { "name": "PostgreSQL & Ledger ACID", "projects": ["aegis-edge-gateway", "monolith-edge-commerce"] },
+        { "name": "Redis & Regional Caching", "projects": ["aegis-edge-gateway", "monolith-edge-commerce"] },
+        { "name": "WebSockets & CRDT Sync", "projects": ["kinetix-realtime-canvas"] },
+        { "name": "ClickHouse & Telemetry", "projects": ["prism-ai-telemetry"] }
+      ]
+    },
+    {
+      "id": "edge",
+      "en": { "title": "Vercel & Cloud Infrastructure" },
+      "vi": { "title": "Hạ tầng Cloud & Vercel Edge" },
+      "items": [
+        { "name": "Edge Middleware & next/og", "projects": ["aegis-edge-gateway", "monolith-edge-commerce"] },
+        { "name": "Streaming & ISR", "projects": ["prism-ai-telemetry", "monolith-edge-commerce"] },
+        { "name": "OpenTelemetry & Speed Insights", "projects": ["aegis-edge-gateway", "prism-ai-telemetry"] },
+        { "name": "CI/CD & AI-DLC Workflows", "projects": ["aegis-edge-gateway", "kinetix-realtime-canvas"] }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "period": "2024 — Present",
+      "company": "Independent / Product Engineering Studio",
+      "en": {
+        "role": "Senior Full-Stack Engineer & Architect",
+        "summary": "Leading end-to-end delivery of Next.js + TypeScript SaaS products, edge API gateways, and high-craft interactive design systems."
+      },
+      "vi": {
+        "role": "Kỹ sư Full-Stack Cấp cao & Kiến trúc sư",
+        "summary": "Trực tiếp thiết kế và triển khai trọn vẹn các sản phẩm SaaS Next.js + TypeScript, cổng API Edge và hệ thống giao diện tương tác hiệu năng cao."
+      }
+    },
+    {
+      "period": "2022 — 2024",
+      "company": "CloudScale Systems",
+      "en": {
+        "role": "Full-Stack Software Engineer",
+        "summary": "Built real-time collaboration workspaces, telemetry ingestion pipelines, and checkout infrastructure serving 2M+ monthly requests."
+      },
+      "vi": {
+        "role": "Kỹ sư Phần mềm Full-Stack",
+        "summary": "Phát triển không gian cộng tác thời gian thực, luồng thu thập dữ liệu đo lường và hạ tầng thanh toán xử lý hơn 2 triệu yêu cầu mỗi tháng."
+      }
+    },
+    {
+      "period": "2021 — 2022",
+      "company": "Digital Craft Labs",
+      "en": {
+        "role": "Frontend & Product Developer",
+        "summary": "Delivered responsive multi-locale web apps, accessible component libraries, and Core Web Vitals performance optimizations."
+      },
+      "vi": {
+        "role": "Lập trình viên Frontend & Sản phẩm",
+        "summary": "Xây dựng ứng dụng web đa ngôn ngữ, thư viện component chuẩn truy cập và tối ưu hiệu năng Core Web Vitals."
+      }
+    }
+  ]
+}

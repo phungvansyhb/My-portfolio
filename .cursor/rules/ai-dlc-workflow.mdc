@@ -1,0 +1,10 @@
+---
+description: "AI-DLC (AI-Driven Development Life Cycle) standard workflow for My-portfolio"
+alwaysApply: true
+---
+
+Follow the AI-DLC workflow in `AGENTS.md` and `.aidlc-rule-details/`:
+- Read `aidlc-docs/aidlc-state.md` and `aidlc-docs/audit.md` before starting any task.
+- Document plans in `aidlc-docs/` and obtain approval before modifying `src/`.
+- Keep `src/data/portfolio.json` bilingual (`en` / `vi`) and theme styles parameterized in `src/styles/tokens.css`.
+- Always verify with `npx tsc --noEmit`, `npm run lint`, and `npm run build`.

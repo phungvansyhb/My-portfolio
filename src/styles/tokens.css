@@ -1,0 +1,112 @@
+/* ==========================================================================
+   DYNAMIC THEME CONFIGURATION (CSS-ONLY)
+   --------------------------------------------------------------------------
+   To customize or add your own color theme, edit the 5 base variables below
+   for any [data-palette="..."] block. Every surface, aurora gradient, border,
+   and shadow derives automatically for both Dark and Light modes.
+   ========================================================================== */
+
+:root,
+[data-palette="glacier"] {
+  --palette-aurora-1: #0f4c5c;
+  --palette-aurora-2: #10b981;
+  --palette-aurora-3: #38bdf8;
+  --palette-canvas-dark: #06090d;
+  --palette-canvas-light: #f4f7f9;
+}
+
+[data-palette="sapphire"] {
+  --palette-aurora-1: #1e3a8a;
+  --palette-aurora-2: #3b82f6;
+  --palette-aurora-3: #f59e0b;
+  --palette-canvas-dark: #07080c;
+  --palette-canvas-light: #f6f5f1;
+}
+
+[data-palette="jade"] {
+  --palette-aurora-1: #14532d;
+  --palette-aurora-2: #2dd4bf;
+  --palette-aurora-3: #64748b;
+  --palette-canvas-dark: #070b09;
+  --palette-canvas-light: #f5f6f2;
+}
+
+[data-palette="baltic"] {
+  --palette-aurora-1: #166088;
+  --palette-aurora-2: #4a6fa5;
+  --palette-aurora-3: #4f6d7a;
+  --palette-canvas-dark: #050401;
+  --palette-canvas-light: #f7f7f7;
+}
+
+/* ==========================================================================
+   SEMANTIC TOKENS — DARK MODE (DEFAULT) & LIGHT MODE
+   ========================================================================== */
+
+:root,
+[data-theme="dark"] {
+  --bg-canvas: var(--palette-canvas-dark);
+  --bg-elevated: color-mix(in srgb, var(--palette-canvas-dark) 82%, var(--palette-aurora-1) 18%);
+  --bg-glass: color-mix(in srgb, var(--palette-aurora-1) 14%, rgba(12, 16, 22, 0.56));
+  --bg-glass-strong: color-mix(in srgb, var(--palette-canvas-dark) 78%, rgba(255, 255, 255, 0.06));
+  --bg-glass-hover: color-mix(in srgb, var(--palette-aurora-2) 14%, rgba(255, 255, 255, 0.07));
+
+  --text-primary: #f7f8fa;
+  --text-secondary: rgba(247, 248, 250, 0.78);
+  --text-muted: color-mix(in srgb, #f7f8fa 52%, var(--palette-aurora-3) 24%);
+
+  --accent-primary: var(--palette-aurora-2);
+  --accent-secondary: var(--palette-aurora-3);
+  --accent-deep: var(--palette-aurora-1);
+  --accent-ink: #05080b;
+
+  --border-glass: rgba(255, 255, 255, 0.13);
+  --border-glass-hover: color-mix(in srgb, var(--palette-aurora-2) 55%, rgba(255, 255, 255, 0.28));
+  --border-subtle: rgba(255, 255, 255, 0.07);
+
+  --shadow-glass: 0 24px 56px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  --shadow-glow: 0 0 36px color-mix(in srgb, var(--palette-aurora-2) 24%, transparent);
+  --aurora-opacity: 0.46;
+}
+
+[data-theme="light"] {
+  --bg-canvas: var(--palette-canvas-light);
+  --bg-elevated: color-mix(in srgb, var(--palette-canvas-light) 92%, var(--palette-aurora-1) 8%);
+  --bg-glass: rgba(255, 255, 255, 0.64);
+  --bg-glass-strong: rgba(255, 255, 255, 0.86);
+  --bg-glass-hover: color-mix(in srgb, var(--palette-aurora-1) 10%, rgba(255, 255, 255, 0.85));
+
+  --text-primary: #090d14;
+  --text-secondary: rgba(9, 13, 20, 0.76);
+  --text-muted: color-mix(in srgb, #090d14 55%, var(--palette-aurora-1) 25%);
+
+  --accent-primary: var(--palette-aurora-1);
+  --accent-secondary: color-mix(in srgb, var(--palette-aurora-2) 78%, #090d14 22%);
+  --accent-deep: var(--palette-aurora-3);
+  --accent-ink: #f7f8fa;
+
+  --border-glass: color-mix(in srgb, var(--palette-aurora-1) 20%, rgba(9, 13, 20, 0.08));
+  --border-glass-hover: color-mix(in srgb, var(--palette-aurora-1) 48%, transparent);
+  --border-subtle: rgba(9, 13, 20, 0.08);
+
+  --shadow-glass: 0 20px 48px color-mix(in srgb, var(--palette-aurora-1) 11%, transparent),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --shadow-glow: 0 12px 32px color-mix(in srgb, var(--palette-aurora-1) 18%, transparent);
+  --aurora-opacity: 0.26;
+}
+
+/* ==========================================================================
+   TYPOGRAPHY, RADII, SPACING & MOTION TOKENS
+   ========================================================================== */
+
+:root {
+  --radius-bento: 24px;
+  --radius-card: 18px;
+  --radius-pill: 9999px;
+
+  --container-max: 1220px;
+  --bento-gap: 18px;
+
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.22, 1, 0.36, 1);
+}

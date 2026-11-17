@@ -1,0 +1,178 @@
+.section {
+  margin-bottom: 72px;
+}
+
+.sectionHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.sectionTitle {
+  font-size: clamp(1.75rem, 3vw, 2.45rem);
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.sectionSubtitle {
+  max-width: 48ch;
+  color: var(--text-secondary);
+  font-size: 0.94rem;
+}
+
+.bentoGrid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--bento-gap);
+}
+
+.cardLink {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  gap: 18px;
+}
+
+.cardWide {
+  grid-column: span 7;
+}
+
+.cardStandard {
+  grid-column: span 5;
+}
+
+.cardDimmed {
+  opacity: 0.45;
+  transform: scale(0.99);
+}
+
+.cardHighlighted {
+  border-color: var(--accent-primary);
+  box-shadow: var(--shadow-glow);
+}
+
+.mediaWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border-glass);
+  background: var(--bg-elevated);
+}
+
+.mediaImg {
+  object-fit: cover;
+  transition: transform 0.65s var(--ease-expo);
+}
+
+.card:hover .mediaImg {
+  transform: scale(1.045);
+}
+
+.cardIndex {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  padding: 5px 11px;
+  border-radius: 9999px;
+  background: rgba(5, 8, 12, 0.72);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: #f7f8fa;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.74rem;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  gap: 14px;
+}
+
+.projectTitle {
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(1.22rem, 1.8vw, 1.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  display: inline-block;
+}
+
+.projectTagline {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-top: 6px;
+}
+
+.metricsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.metricPill {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.metricVal {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent-primary);
+}
+
+.metricLabel {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+}
+
+.footerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.stackRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.stackTag {
+  padding: 4px 10px;
+  border-radius: 9999px;
+  border: 1px solid var(--border-glass);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+}
+
+.ctaBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent-primary);
+}
+
+@media (max-width: 960px) {
+  .cardWide,
+  .cardStandard {
+    grid-column: span 12;
+  }
+}

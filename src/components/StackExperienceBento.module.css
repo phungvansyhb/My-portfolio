@@ -1,0 +1,134 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--bento-gap);
+  margin-bottom: 72px;
+}
+
+.stackCard {
+  grid-column: span 7;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.expCard {
+  grid-column: span 5;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cardTitle {
+  font-size: clamp(1.45rem, 2.2vw, 1.85rem);
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.hint {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.groupBox {
+  padding: 16px;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--bg-canvas) 50%, transparent);
+  border: 1px solid var(--border-subtle);
+}
+
+.groupTitle {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.78rem;
+  color: var(--accent-primary);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  padding: 7px 13px;
+  border-radius: 9999px;
+  border: 1px solid var(--border-glass);
+  background: var(--bg-glass);
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  transition: all 0.2s var(--ease-expo);
+}
+
+.chip:hover,
+.chipActive {
+  background: color-mix(in srgb, var(--accent-primary) 22%, transparent);
+  border-color: var(--accent-primary);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.expItem {
+  padding: 16px;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--bg-canvas) 50%, transparent);
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.expTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.expRole {
+  font-weight: 600;
+  font-size: 0.98rem;
+  color: var(--text-primary);
+}
+
+.expPeriod {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.74rem;
+  color: var(--accent-primary);
+}
+
+.expCompany {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+}
+
+.expSummary {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-top: 4px;
+}
+
+@media (max-width: 980px) {
+  .stackCard,
+  .expCard {
+    grid-column: span 12;
+  }
+}
